@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "swapclicks",
+  "version": "${version}",
+  "name": "Swap Clicks",
+  "description": "Un keybind pour échanger clic gauche et clic droit.",
+  "authors": ["Camille"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["fr.camille.swapclicks.SwapClicks"] },
+  "mixins": ["swapclicks.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

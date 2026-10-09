@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "fr.camille.swapclicks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["OptionsMixin", "MinecraftMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
